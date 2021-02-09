@@ -1,4 +1,5 @@
 <?php
+
 require __DIR__ . '/vendor/autoload.php';
 
 use Automattic\WooCommerce\Client;
@@ -6,7 +7,7 @@ use Automattic\WooCommerce\Client;
 $woocommerce = new Client(
     'http://inicio.comercializadoraegs.com/', 
     'ck_75fc70c9507d18607d5a701c95a1f3f710a7dec3', 
-    'cs_2a5c0df1e6e384d71a26dda272633eec7526244',
+    'cs_2a5c0df1e6e384d71a26dda272633eec7526244a',
     [
         'version' => 'wc/v3',
     ]
